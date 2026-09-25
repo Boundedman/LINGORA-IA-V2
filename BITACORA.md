@@ -497,4 +497,15 @@ Se registrarán las nuevas solicitudes de esta conversación con su resultado y 
 - [ ] **2026-09-25 10:38:15 UTC-06:00 — Publicar LINGORA IA V2 en GitHub**
   - **Prompt:**
     > sube esta carpeta a github con el nombre de repositorio de LINGORA IA V2
-  - **Resumen:** Preparando repositorio privado LINGORA-IA-V2; se excluyen secretos, dependencias, datos locales y repositorio antiguo anidado. Publicación pendiente.
+  - **Resumen:** Creado repositorio Git local en main y commit inicial con 106 archivos. Excluidos secretos, dependencias, datos y ambos repositorios antiguos anidados. Comprobado que los archivos no contienen claves conocidas del .env. Descargado GitHub CLI oficial. GitHub no tiene sesión autenticada; iniciado acceso por dispositivo y pendiente de que el usuario lo complete. No se creó ni subió todavía el repositorio remoto.
+
+- [x] **2026-09-25 11:09:48 UTC-06:00 — Renovar acceso GitHub**
+  - **Prompt:**
+    > Tarde en ponerlo, hazlo de nuevo
+  - **Resumen:** Confirmada caducidad del acceso anterior e iniciado un nuevo flujo oficial de autenticación por dispositivo. Pendiente autorización del usuario para continuar la publicación de LINGORA-IA-V2.
+  - **Archivos modificados:** BITACORA.md.
+
+- [ ] **2026-09-25 11:12:36 UTC-06:00 — Completar publicación GitHub**
+  - **Prompt:**
+    > ya quedo conectado
+  - **Resumen:** Autenticación verificada para Boundedman. Publicación privada de LINGORA-IA-V2 en curso.

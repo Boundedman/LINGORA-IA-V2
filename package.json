@@ -1,0 +1,43 @@
+{
+  "name": "lingora",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "npm run build && npm run start",
+    "dev:ui": "vite --config front/vite.config.ts --host 127.0.0.1",
+    "build": "tsc --noEmit -p front/tsconfig.json && tsx --tsconfig front/tsconfig.json scripts/export-curriculum.ts && vite build --config front/vite.config.ts",
+    "preview": "vite preview --config front/vite.config.ts --host 127.0.0.1",
+    "test": "tsx --tsconfig front/tsconfig.json --test front/tests/*.test.ts",
+    "lint": "tsc --noEmit -p front/tsconfig.json",
+    "start": "node scripts/python.mjs -m uvicorn back.main:app --host 127.0.0.1 --port 8000",
+    "test:backend": "node scripts/python.mjs -m pytest -c back/pytest.ini back/tests -q",
+    "dev:api": "node scripts/python.mjs -m uvicorn back.main:app --reload --reload-dir back --host 127.0.0.1 --port 8000",
+    "test:legacy": "tsx --tsconfig front/tsconfig.json --test legacy/tests/*.test.ts",
+    "seed:legacy": "tsx --tsconfig front/tsconfig.json legacy/scripts/seed.ts",
+    "test:db:legacy": "tsx --tsconfig front/tsconfig.json legacy/scripts/test-db.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.3.0",
+    "@testing-library/react": "^16.3.3",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^30.0.1",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vite": "^6.4.0"
+  }
+}

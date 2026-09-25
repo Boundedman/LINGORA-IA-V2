@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: lingora-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r back/requirements.txt
+    startCommand: uvicorn back.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: AI_ENABLED
+        value: "true"
+      - key: AI_PROVIDER
+        value: gemini
+      - key: AI_MODEL
+        sync: false
+      - key: AI_API_KEY
+        sync: false

@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "a1-vocabulary",
+    "level": "A1",
+    "skill": "vocabulary",
+    "title": "Conoce a alguien",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Reconocer cuatro palabras útiles y recuperarlas de memoria.",
+    "explanation": "Aprende palabras en frases, no solo traducciones. Lee, tapa el ejemplo e intenta recordarlo.",
+    "examples": [
+      "name → nombre",
+      "work → trabajar",
+      "live → vivir",
+      "friend → amigo o amiga"
+    ],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "v0",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “name”?",
+        "choices": [
+          "nombre",
+          "trabajar",
+          "vivir",
+          "amigo o amiga"
+        ],
+        "answer": "nombre",
+        "explanation": "Aquí “name” significa “nombre”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v1",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “work”?",
+        "choices": [
+          "nombre",
+          "trabajar",
+          "vivir",
+          "amigo o amiga"
+        ],
+        "answer": "trabajar",
+        "explanation": "Aquí “work” significa “trabajar”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v2",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “live”?",
+        "choices": [
+          "nombre",
+          "trabajar",
+          "vivir",
+          "amigo o amiga"
+        ],
+        "answer": "vivir",
+        "explanation": "Aquí “live” significa “vivir”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v3",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “friend”?",
+        "choices": [
+          "nombre",
+          "trabajar",
+          "vivir",
+          "amigo o amiga"
+        ],
+        "answer": "amigo o amiga",
+        "explanation": "Aquí “friend” significa “amigo o amiga”. Úsala en una frase propia antes de continuar."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-grammar",
+    "level": "A1",
+    "skill": "grammar",
+    "title": "Presentarte con be",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Aplicar la estructura a una situación propia.",
+    "explanation": "Usa I am, you are y he/she is. Para la edad se usa be, no have.",
+    "examples": [
+      "I am 25 years old."
+    ],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1",
+        "kind": "text",
+        "prompt": "She ___ a teacher.",
+        "answer": "is",
+        "explanation": "Usa I am, you are y he/she is. Para la edad se usa be, no have."
+      },
+      {
+        "id": "g2",
+        "kind": "writing",
+        "prompt": "Escribe una frase propia usando presentarte con be.",
+        "explanation": "Comprueba la estructura con el ejemplo. Puedes pedir feedback al tutor."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-reading",
+    "level": "A1",
+    "skill": "reading",
+    "title": "Lee entre líneas",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Identificar la idea principal y justificarla con el texto.",
+    "explanation": "Hi! My name is Elena. I live in Puebla. I work in a café in the morning. In the evening, I study English with my friend Luis.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "r1",
+        "kind": "choice",
+        "prompt": "When does Elena study English?",
+        "answer": "In the evening",
+        "choices": [
+          "In the morning",
+          "In the evening",
+          "At midnight"
+        ],
+        "explanation": "La respuesta se apoya en el texto: In the evening. Vuelve a localizar la frase que aporta esa información."
+      },
+      {
+        "id": "r2",
+        "kind": "writing",
+        "prompt": "Resume la idea principal en una frase en inglés.",
+        "explanation": "Incluye la idea central, no cada detalle. El tutor puede ayudarte a revisar tu resumen."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-listening",
+    "level": "A1",
+    "skill": "listening",
+    "title": "Escucha lo importante",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Extraer información útil de un mensaje hablado.",
+    "explanation": "Escucha primero sin leer la transcripción. Identifica quién habla y qué necesitas hacer. Puedes repetir el audio. No hay penalización por escuchar de nuevo.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "l1",
+        "kind": "choice",
+        "prompt": "What should you bring?",
+        "choices": [
+          "A notebook",
+          "A passport",
+          "A ticket"
+        ],
+        "answer": "A notebook",
+        "transcript": "Hello, I am Daniel. My English class starts at nine on Monday. Please bring a notebook.",
+        "explanation": "La información clave es: A notebook."
+      },
+      {
+        "id": "l2",
+        "kind": "writing",
+        "prompt": "Escribe una frase que recuerdes del audio.",
+        "transcript": "Hello, I am Daniel. My English class starts at nine on Monday. Please bring a notebook.",
+        "explanation": "Compara tu frase con la transcripción. No hace falta recordar todas las palabras."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-writing",
+    "level": "A1",
+    "skill": "writing",
+    "title": "Dale forma a tus ideas",
+    "subtitle": "Conoce a alguien",
+    "minutes": 8,
+    "objective": "Producir un texto breve con un propósito claro.",
+    "explanation": "Planifica, escribe y revisa. Comprueba que respondes a la consigna y que las ideas están conectadas. La respuesta modelo es una guía, no una única solución.",
+    "examples": [
+      "I am Ana. I live in Mérida. I work in a shop."
+    ],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "w1",
+        "kind": "writing",
+        "prompt": "Escribe 3 frases para presentarte: nombre, ciudad y una actividad.",
+        "explanation": "Revisa estructura, vocabulario, claridad y cumplimiento de la tarea. Solicita feedback al tutor para una revisión abierta."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-speaking",
+    "level": "A1",
+    "skill": "speaking",
+    "title": "Practica en voz alta",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Comunicar un mensaje completo en voz alta.",
+    "explanation": "Ensaya sin prisa. Grábate para escucharte y comparar con los objetivos. Esta práctica es guiada; no es un chat por voz y no asigna una puntuación automática.",
+    "examples": [
+      "Hi, my name is … I live in … Nice to meet you."
+    ],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "s1",
+        "kind": "speaking",
+        "prompt": "Preséntate en voz alta durante 20 segundos. Incluye tu nombre y ciudad.",
+        "explanation": "Comprueba: ¿se entiende el mensaje?, ¿incluiste las ideas solicitadas?, ¿puedes repetirlo con menos pausas?"
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a1-pronunciation",
+    "level": "A1",
+    "skill": "pronunciation",
+    "title": "Contrasta ship y sheep",
+    "subtitle": "Conoce a alguien",
+    "minutes": 5,
+    "objective": "Notar y practicar un contraste de pronunciación o acento.",
+    "explanation": "Escucha y repite. En sheep la vocal es más larga y tensa. No son dos formas equivalentes de la misma palabra.",
+    "examples": [
+      "ship /ʃɪp/ · sheep /ʃiːp/"
+    ],
+    "vocabulary": [
+      {
+        "word": "name",
+        "translation": "nombre"
+      },
+      {
+        "word": "work",
+        "translation": "trabajar"
+      },
+      {
+        "word": "live",
+        "translation": "vivir"
+      },
+      {
+        "word": "friend",
+        "translation": "amigo o amiga"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "p1",
+        "kind": "speaking",
+        "prompt": "Practica y graba estos ejemplos: ship /ʃɪp/ · sheep /ʃiːp/",
+        "explanation": "Escúchate y compara el contraste o el énfasis. Esta actividad no mide precisión fonética."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-vocabulary",
+    "level": "A2",
+    "skill": "vocabulary",
+    "title": "Planes para viajar",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Reconocer cuatro palabras útiles y recuperarlas de memoria.",
+    "explanation": "Relaciona cada palabra con su contexto. Una palabra puede tener otros significados fuera de esta lección.",
+    "examples": [
+      "ticket → boleto",
+      "luggage → equipaje",
+      "arrive → llegar",
+      "book → reservar"
+    ],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "v0",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “ticket”?",
+        "choices": [
+          "boleto",
+          "equipaje",
+          "llegar",
+          "reservar"
+        ],
+        "answer": "boleto",
+        "explanation": "Aquí “ticket” significa “boleto”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v1",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “luggage”?",
+        "choices": [
+          "boleto",
+          "equipaje",
+          "llegar",
+          "reservar"
+        ],
+        "answer": "equipaje",
+        "explanation": "Aquí “luggage” significa “equipaje”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v2",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “arrive”?",
+        "choices": [
+          "boleto",
+          "equipaje",
+          "llegar",
+          "reservar"
+        ],
+        "answer": "llegar",
+        "explanation": "Aquí “arrive” significa “llegar”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v3",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “book”?",
+        "choices": [
+          "boleto",
+          "equipaje",
+          "llegar",
+          "reservar"
+        ],
+        "answer": "reservar",
+        "explanation": "Aquí “book” significa “reservar”. Úsala en una frase propia antes de continuar."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-grammar",
+    "level": "A2",
+    "skill": "grammar",
+    "title": "Contar un viaje en pasado",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Aplicar la estructura a una situación propia.",
+    "explanation": "En preguntas y negaciones con did, el verbo principal vuelve a su forma base: Did you go? I did not go.",
+    "examples": [
+      "I went to Oaxaca last year. I did not go by plane."
+    ],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1",
+        "kind": "text",
+        "prompt": "I did not ___ a taxi.",
+        "answer": "take",
+        "explanation": "En preguntas y negaciones con did, el verbo principal vuelve a su forma base: Did you go? I did not go."
+      },
+      {
+        "id": "g2",
+        "kind": "writing",
+        "prompt": "Escribe una frase propia usando contar un viaje en pasado.",
+        "explanation": "Comprueba la estructura con el ejemplo. Puedes pedir feedback al tutor."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-reading",
+    "level": "A2",
+    "skill": "reading",
+    "title": "Lee entre líneas",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Identificar la idea principal y justificarla con el texto.",
+    "explanation": "Last Saturday, Sofia missed the early bus to the coast. She bought a ticket for the next bus and called the hotel. The receptionist agreed to keep her room until the evening. Sofia arrived at six, tired but happy.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "r1",
+        "kind": "choice",
+        "prompt": "Why did Sofia call the hotel?",
+        "answer": "To explain her late arrival",
+        "choices": [
+          "To cancel her holiday",
+          "To explain her late arrival",
+          "To book a flight"
+        ],
+        "explanation": "La respuesta se apoya en el texto: To explain her late arrival. Vuelve a localizar la frase que aporta esa información."
+      },
+      {
+        "id": "r2",
+        "kind": "writing",
+        "prompt": "Resume la idea principal en una frase en inglés.",
+        "explanation": "Incluye la idea central, no cada detalle. El tutor puede ayudarte a revisar tu resumen."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-listening",
+    "level": "A2",
+    "skill": "listening",
+    "title": "Escucha lo importante",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Extraer información útil de un mensaje hablado.",
+    "explanation": "Escucha primero sin leer la transcripción. Identifica quién habla y qué necesitas hacer. Puedes repetir el audio. No hay penalización por escuchar de nuevo.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "l1",
+        "kind": "choice",
+        "prompt": "Which platform should passengers use?",
+        "choices": [
+          "Platform two",
+          "Platform four",
+          "Platform ten"
+        ],
+        "answer": "Platform four",
+        "transcript": "Attention, passengers. The train to Brighton will leave from platform four, not platform two. It is ten minutes late. Keep your tickets ready.",
+        "explanation": "La información clave es: Platform four."
+      },
+      {
+        "id": "l2",
+        "kind": "writing",
+        "prompt": "Escribe una frase que recuerdes del audio.",
+        "transcript": "Attention, passengers. The train to Brighton will leave from platform four, not platform two. It is ten minutes late. Keep your tickets ready.",
+        "explanation": "Compara tu frase con la transcripción. No hace falta recordar todas las palabras."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-writing",
+    "level": "A2",
+    "skill": "writing",
+    "title": "Dale forma a tus ideas",
+    "subtitle": "Planes para viajar",
+    "minutes": 8,
+    "objective": "Producir un texto breve con un propósito claro.",
+    "explanation": "Planifica, escribe y revisa. Comprueba que respondes a la consigna y que las ideas están conectadas. La respuesta modelo es una guía, no una única solución.",
+    "examples": [
+      "Last year, I visited Puebla. I travelled by bus. I tried local food and visited a museum."
+    ],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "w1",
+        "kind": "writing",
+        "prompt": "Escribe 4–5 frases sobre un viaje pasado. Explica dónde fuiste, cómo viajaste y qué hiciste.",
+        "explanation": "Revisa estructura, vocabulario, claridad y cumplimiento de la tarea. Solicita feedback al tutor para una revisión abierta."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-speaking",
+    "level": "A2",
+    "skill": "speaking",
+    "title": "Practica en voz alta",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Comunicar un mensaje completo en voz alta.",
+    "explanation": "Ensaya sin prisa. Grábate para escucharte y comparar con los objetivos. Esta práctica es guiada; no es un chat por voz y no asigna una puntuación automática.",
+    "examples": [
+      "I would like a ticket to Oxford, please. What time does the next bus leave?"
+    ],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "s1",
+        "kind": "speaking",
+        "prompt": "Practica pedir un boleto y preguntar la hora de salida. Haz ambos papeles.",
+        "explanation": "Comprueba: ¿se entiende el mensaje?, ¿incluiste las ideas solicitadas?, ¿puedes repetirlo con menos pausas?"
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "a2-pronunciation",
+    "level": "A2",
+    "skill": "pronunciation",
+    "title": "Terminaciones de pasado -ed",
+    "subtitle": "Planes para viajar",
+    "minutes": 5,
+    "objective": "Notar y practicar un contraste de pronunciación o acento.",
+    "explanation": "No añadas una sílaba a todos los pasados: worked tiene una sílaba. Wanted sí añade /ɪd/ después de /t/.",
+    "examples": [
+      "worked /t/ · played /d/ · wanted /ɪd/"
+    ],
+    "vocabulary": [
+      {
+        "word": "ticket",
+        "translation": "boleto"
+      },
+      {
+        "word": "luggage",
+        "translation": "equipaje"
+      },
+      {
+        "word": "arrive",
+        "translation": "llegar"
+      },
+      {
+        "word": "book",
+        "translation": "reservar"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "p1",
+        "kind": "speaking",
+        "prompt": "Practica y graba estos ejemplos: worked /t/ · played /d/ · wanted /ɪd/",
+        "explanation": "Escúchate y compara el contraste o el énfasis. Esta actividad no mide precisión fonética."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-vocabulary",
+    "level": "B1",
+    "skill": "vocabulary",
+    "title": "Experiencias y trabajo",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Reconocer cuatro palabras útiles y recuperarlas de memoria.",
+    "explanation": "Relaciona cada palabra con su contexto. Una palabra puede tener otros significados fuera de esta lección.",
+    "examples": [
+      "experience → experiencia",
+      "since → desde",
+      "improve → mejorar",
+      "deadline → fecha límite"
+    ],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "v0",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “experience”?",
+        "choices": [
+          "experiencia",
+          "desde",
+          "mejorar",
+          "fecha límite"
+        ],
+        "answer": "experiencia",
+        "explanation": "Aquí “experience” significa “experiencia”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v1",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “since”?",
+        "choices": [
+          "experiencia",
+          "desde",
+          "mejorar",
+          "fecha límite"
+        ],
+        "answer": "desde",
+        "explanation": "Aquí “since” significa “desde”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v2",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “improve”?",
+        "choices": [
+          "experiencia",
+          "desde",
+          "mejorar",
+          "fecha límite"
+        ],
+        "answer": "mejorar",
+        "explanation": "Aquí “improve” significa “mejorar”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v3",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “deadline”?",
+        "choices": [
+          "experiencia",
+          "desde",
+          "mejorar",
+          "fecha límite"
+        ],
+        "answer": "fecha límite",
+        "explanation": "Aquí “deadline” significa “fecha límite”. Úsala en una frase propia antes de continuar."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-grammar",
+    "level": "B1",
+    "skill": "grammar",
+    "title": "For y since",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Aplicar la estructura a una situación propia.",
+    "explanation": "For introduce una duración; since, un punto de inicio. Con situaciones que continúan, usa present perfect.",
+    "examples": [
+      "I have worked here for two years. I have lived here since 2020."
+    ],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1",
+        "kind": "text",
+        "prompt": "I have studied English ___ three months.",
+        "answer": "for",
+        "explanation": "For introduce una duración; since, un punto de inicio. Con situaciones que continúan, usa present perfect."
+      },
+      {
+        "id": "g2",
+        "kind": "writing",
+        "prompt": "Escribe una frase propia usando for y since.",
+        "explanation": "Comprueba la estructura con el ejemplo. Puedes pedir feedback al tutor."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-reading",
+    "level": "B1",
+    "skill": "reading",
+    "title": "Lee entre líneas",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Identificar la idea principal y justificarla con el texto.",
+    "explanation": "A small company tested a four-day working week for three months. Employees reported feeling less tired, but customer support became harder on Fridays. The team decided to keep the shorter week and rotate who worked on Friday. They will review customer feedback before making the change permanent.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "r1",
+        "kind": "choice",
+        "prompt": "Why is the decision not yet permanent?",
+        "answer": "They still need to review customer feedback",
+        "choices": [
+          "Employees refused the change",
+          "They still need to review customer feedback",
+          "The company has closed"
+        ],
+        "explanation": "La respuesta se apoya en el texto: They still need to review customer feedback. Vuelve a localizar la frase que aporta esa información."
+      },
+      {
+        "id": "r2",
+        "kind": "writing",
+        "prompt": "Resume la idea principal en una frase en inglés.",
+        "explanation": "Incluye la idea central, no cada detalle. El tutor puede ayudarte a revisar tu resumen."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-listening",
+    "level": "B1",
+    "skill": "listening",
+    "title": "Escucha lo importante",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Extraer información útil de un mensaje hablado.",
+    "explanation": "Escucha primero sin leer la transcripción. Identifica quién habla y qué necesitas hacer. Puedes repetir el audio. No hay penalización por escuchar de nuevo.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "l1",
+        "kind": "choice",
+        "prompt": "What should Alex do if the new time is unsuitable?",
+        "choices": [
+          "Call the client at two",
+          "Send notes before lunch",
+          "Cancel the whole project"
+        ],
+        "answer": "Send notes before lunch",
+        "transcript": "Hi Alex. We need to move our meeting because the client cannot join at two. Could we meet at half past three instead? If that is too late, send me your notes before lunch and I will share them.",
+        "explanation": "La información clave es: Send notes before lunch."
+      },
+      {
+        "id": "l2",
+        "kind": "writing",
+        "prompt": "Escribe una frase que recuerdes del audio.",
+        "transcript": "Hi Alex. We need to move our meeting because the client cannot join at two. Could we meet at half past three instead? If that is too late, send me your notes before lunch and I will share them.",
+        "explanation": "Compara tu frase con la transcripción. No hace falta recordar todas las palabras."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-writing",
+    "level": "B1",
+    "skill": "writing",
+    "title": "Dale forma a tus ideas",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 8,
+    "objective": "Producir un texto breve con un propósito claro.",
+    "explanation": "Planifica, escribe y revisa. Comprueba que respondes a la consigna y que las ideas están conectadas. La respuesta modelo es una guía, no una única solución.",
+    "examples": [
+      "I have been learning … for … At first, … However, … My next step is …"
+    ],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "w1",
+        "kind": "writing",
+        "prompt": "Escribe 60–80 palabras sobre una habilidad que has aprendido. Explica desde cuándo practicas, una dificultad y tu siguiente paso.",
+        "explanation": "Revisa estructura, vocabulario, claridad y cumplimiento de la tarea. Solicita feedback al tutor para una revisión abierta."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-speaking",
+    "level": "B1",
+    "skill": "speaking",
+    "title": "Practica en voz alta",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Comunicar un mensaje completo en voz alta.",
+    "explanation": "Ensaya sin prisa. Grábate para escucharte y comparar con los objetivos. Esta práctica es guiada; no es un chat por voz y no asigna una puntuación automática.",
+    "examples": [
+      "I started … Since then, I have … One challenge was … I learned that …"
+    ],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "s1",
+        "kind": "speaking",
+        "prompt": "Explica durante un minuto una experiencia de trabajo o estudio. Usa pasado y present perfect donde corresponda.",
+        "explanation": "Comprueba: ¿se entiende el mensaje?, ¿incluiste las ideas solicitadas?, ¿puedes repetirlo con menos pausas?"
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b1-pronunciation",
+    "level": "B1",
+    "skill": "pronunciation",
+    "title": "Acento de palabra",
+    "subtitle": "Experiencias y trabajo",
+    "minutes": 5,
+    "objective": "Notar y practicar un contraste de pronunciación o acento.",
+    "explanation": "El acento cambia en palabras de la misma familia. Marca la sílaba fuerte y mantén suaves las restantes.",
+    "examples": [
+      "PHOtograph · phoTOGraphy"
+    ],
+    "vocabulary": [
+      {
+        "word": "experience",
+        "translation": "experiencia"
+      },
+      {
+        "word": "since",
+        "translation": "desde"
+      },
+      {
+        "word": "improve",
+        "translation": "mejorar"
+      },
+      {
+        "word": "deadline",
+        "translation": "fecha límite"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "p1",
+        "kind": "speaking",
+        "prompt": "Practica y graba estos ejemplos: PHOtograph · phoTOGraphy",
+        "explanation": "Escúchate y compara el contraste o el énfasis. Esta actividad no mide precisión fonética."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-vocabulary",
+    "level": "B2",
+    "skill": "vocabulary",
+    "title": "Ideas que generan cambio",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Reconocer cuatro palabras útiles y recuperarlas de memoria.",
+    "explanation": "Relaciona cada palabra con su contexto. Una palabra puede tener otros significados fuera de esta lección.",
+    "examples": [
+      "trade-off → compensación entre ventajas y desventajas",
+      "evidence → evidencia",
+      "whereas → mientras que / en cambio",
+      "drawback → inconveniente"
+    ],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "v0",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “trade-off”?",
+        "choices": [
+          "compensación entre ventajas y desventajas",
+          "evidencia",
+          "mientras que / en cambio",
+          "inconveniente"
+        ],
+        "answer": "compensación entre ventajas y desventajas",
+        "explanation": "Aquí “trade-off” significa “compensación entre ventajas y desventajas”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v1",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “evidence”?",
+        "choices": [
+          "compensación entre ventajas y desventajas",
+          "evidencia",
+          "mientras que / en cambio",
+          "inconveniente"
+        ],
+        "answer": "evidencia",
+        "explanation": "Aquí “evidence” significa “evidencia”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v2",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “whereas”?",
+        "choices": [
+          "compensación entre ventajas y desventajas",
+          "evidencia",
+          "mientras que / en cambio",
+          "inconveniente"
+        ],
+        "answer": "mientras que / en cambio",
+        "explanation": "Aquí “whereas” significa “mientras que / en cambio”. Úsala en una frase propia antes de continuar."
+      },
+      {
+        "id": "v3",
+        "kind": "choice",
+        "prompt": "En el contexto de esta lección, ¿qué significa “drawback”?",
+        "choices": [
+          "compensación entre ventajas y desventajas",
+          "evidencia",
+          "mientras que / en cambio",
+          "inconveniente"
+        ],
+        "answer": "inconveniente",
+        "explanation": "Aquí “drawback” significa “inconveniente”. Úsala en una frase propia antes de continuar."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-grammar",
+    "level": "B2",
+    "skill": "grammar",
+    "title": "Hipótesis con second conditional",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Aplicar la estructura a una situación propia.",
+    "explanation": "Usa if + past simple y would + verbo base para situaciones hipotéticas del presente o futuro. El pasado aquí expresa distancia de la realidad.",
+    "examples": [
+      "If we had more time, we would test another solution."
+    ],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "g1",
+        "kind": "text",
+        "prompt": "If I had the budget, I ___ hire another teacher.",
+        "answer": "would",
+        "explanation": "Usa if + past simple y would + verbo base para situaciones hipotéticas del presente o futuro. El pasado aquí expresa distancia de la realidad."
+      },
+      {
+        "id": "g2",
+        "kind": "writing",
+        "prompt": "Escribe una frase propia usando hipótesis con second conditional.",
+        "explanation": "Comprueba la estructura con el ejemplo. Puedes pedir feedback al tutor."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-reading",
+    "level": "B2",
+    "skill": "reading",
+    "title": "Lee entre líneas",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Identificar la idea principal y justificarla con el texto.",
+    "explanation": "Remote work is often presented as a universal solution to workplace stress. Yet its benefits depend on housing, caring responsibilities and access to quiet space. A flexible policy should therefore offer genuine choice rather than replace one rigid rule with another. Measuring success only through office attendance also overlooks the quality of the work produced.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "r1",
+        "kind": "choice",
+        "prompt": "Which statement best captures the author’s position?",
+        "answer": "Work policies should reflect different circumstances",
+        "choices": [
+          "Remote work benefits everyone equally",
+          "Work policies should reflect different circumstances",
+          "Attendance is the best measure of quality"
+        ],
+        "explanation": "La respuesta se apoya en el texto: Work policies should reflect different circumstances. Vuelve a localizar la frase que aporta esa información."
+      },
+      {
+        "id": "r2",
+        "kind": "writing",
+        "prompt": "Resume la idea principal en una frase en inglés.",
+        "explanation": "Incluye la idea central, no cada detalle. El tutor puede ayudarte a revisar tu resumen."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-listening",
+    "level": "B2",
+    "skill": "listening",
+    "title": "Escucha lo importante",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Extraer información útil de un mensaje hablado.",
+    "explanation": "Escucha primero sin leer la transcripción. Identifica quién habla y qué necesitas hacer. Puedes repetir el audio. No hay penalización por escuchar de nuevo.",
+    "examples": [],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "l1",
+        "kind": "choice",
+        "prompt": "Why does the speaker urge caution?",
+        "choices": [
+          "The shops have no customers",
+          "Another event may explain the increase",
+          "Cycling has been banned"
+        ],
+        "answer": "Another event may explain the increase",
+        "transcript": "Although the new cycle lane reduced parking spaces, local shops reported more visitors during weekends. This does not prove that the lane caused the increase; a festival took place at the same time. We should compare several ordinary weeks before drawing a firm conclusion.",
+        "explanation": "La información clave es: Another event may explain the increase."
+      },
+      {
+        "id": "l2",
+        "kind": "writing",
+        "prompt": "Escribe una frase que recuerdes del audio.",
+        "transcript": "Although the new cycle lane reduced parking spaces, local shops reported more visitors during weekends. This does not prove that the lane caused the increase; a festival took place at the same time. We should compare several ordinary weeks before drawing a firm conclusion.",
+        "explanation": "Compara tu frase con la transcripción. No hace falta recordar todas las palabras."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-writing",
+    "level": "B2",
+    "skill": "writing",
+    "title": "Dale forma a tus ideas",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 8,
+    "objective": "Producir un texto breve con un propósito claro.",
+    "explanation": "Planifica, escribe y revisa. Comprueba que respondes a la consigna y que las ideas están conectadas. La respuesta modelo es una guía, no una única solución.",
+    "examples": [
+      "Although …, I would argue that … One potential drawback is … Nevertheless, …"
+    ],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "w1",
+        "kind": "writing",
+        "prompt": "Escribe 100–130 palabras sobre el trabajo remoto. Presenta tu postura, un argumento, una objeción y una conclusión matizada.",
+        "explanation": "Revisa estructura, vocabulario, claridad y cumplimiento de la tarea. Solicita feedback al tutor para una revisión abierta."
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-speaking",
+    "level": "B2",
+    "skill": "speaking",
+    "title": "Practica en voz alta",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Comunicar un mensaje completo en voz alta.",
+    "explanation": "Ensaya sin prisa. Grábate para escucharte y comparar con los objetivos. Esta práctica es guiada; no es un chat por voz y no asigna una puntuación automática.",
+    "examples": [
+      "The main advantage would be … Admittedly, … However, the evidence suggests …"
+    ],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "s1",
+        "kind": "speaking",
+        "prompt": "Defiende una propuesta durante 90 segundos e incorpora una objeción razonable.",
+        "explanation": "Comprueba: ¿se entiende el mensaje?, ¿incluiste las ideas solicitadas?, ¿puedes repetirlo con menos pausas?"
+      }
+    ],
+    "prerequisite": null
+  },
+  {
+    "id": "b2-pronunciation",
+    "level": "B2",
+    "skill": "pronunciation",
+    "title": "Énfasis que cambia el mensaje",
+    "subtitle": "Ideas que generan cambio",
+    "minutes": 5,
+    "objective": "Notar y practicar un contraste de pronunciación o acento.",
+    "explanation": "Da mayor énfasis a la información que contrastas. Practica la misma oración cambiando el foco: quién, qué objeto o qué color.",
+    "examples": [
+      "I wanted the BLUE folder, not the green one."
+    ],
+    "vocabulary": [
+      {
+        "word": "trade-off",
+        "translation": "compensación entre ventajas y desventajas"
+      },
+      {
+        "word": "evidence",
+        "translation": "evidencia"
+      },
+      {
+        "word": "whereas",
+        "translation": "mientras que / en cambio"
+      },
+      {
+        "word": "drawback",
+        "translation": "inconveniente"
+      }
+    ],
+    "exercises": [
+      {
+        "id": "p1",
+        "kind": "speaking",
+        "prompt": "Practica y graba estos ejemplos: I wanted the BLUE folder, not the green one.",
+        "explanation": "Escúchate y compara el contraste o el énfasis. Esta actividad no mide precisión fonética."
+      }
+    ],
+    "prerequisite": null
+  }
+]

@@ -1,0 +1,11 @@
+# Vite's root is front/, so its dist directory is front/dist.
+[build]
+  base = "."
+  command = "npm run build"
+  publish = "front/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# This publishes the frontend only. FastAPI must run on a Python host.
+# Configure /api routing only after the backend's public URL is available.

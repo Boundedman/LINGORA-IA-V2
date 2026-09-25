@@ -509,3 +509,26 @@ Se registrarán las nuevas solicitudes de esta conversación con su resultado y 
   - **Prompt:**
     > ya quedo conectado
   - **Resumen:** Repositorio privado creado y rama main subida correctamente a https://github.com/Boundedman/LINGORA-IA-V2. Incluye 106 archivos del proyecto, sin .env, dependencias, bases locales ni repositorios anidados. Se verificó el push inicial. Archivos modificados: BITACORA.md; origen Git configurado.
+
+- [x] **2026-09-25 11:46:58 UTC-06:00 — Verificar URL pública Cloudflare**
+  - **Prompt:**
+    > \
+    > lingora-ia-v3.ragedy2.workers.dev
+  - **Resumen:** Comprobación HTTPS: raíz HTTP 200 con interfaz Lingora; /api/health HTTP 503 con mensaje de falta de URL pública del backend. La web está publicada pero falta desplegar FastAPI y configurar BACKEND_URL; APP_URL del backend debe ser https://lingora-ia-v3.ragedy2.workers.dev. No se cambiaron servicios ni credenciales.
+  - **Archivos modificados:** BITACORA.md.
+
+- [x] **2026-09-25 12:02:25 UTC-06:00 — Completar formulario Blueprint de Render**
+  - **Contexto:** El usuario adjuntó dos capturas del formulario New Blueprint y sus variables, sin texto adicional.
+  - **Resumen:** Indicados nombre lingora-backend, rama main y ruta render.yaml; APP_URL de Cloudflare y copia exclusiva de los valores DATABASE_URL, AI_MODEL y AI_API_KEY desde el .env local. No se leyeron ni mostraron secretos y no se ejecutó el deploy remoto.
+  - **Archivos modificados:** BITACORA.md.
+
+- [x] **2026-09-25 12:10:22 UTC-06:00 — Revisar creación del servicio Render**
+  - **Contexto:** Captura enviada sin texto adicional: Blueprint lingora-backend sincronizado con commit 46db65c; Create web service lingora-api aparece completado.
+  - **Resumen:** Confirmada creación del servicio según captura, sin asumir que ya está operativo. Indicado abrir el enlace lingora-api para obtener estado y URL pública; conexión Cloudflare pendiente de ese dato.
+  - **Archivos modificados:** BITACORA.md. Sin lectura de secretos ni cambios de servicios.
+
+- [ ] **2026-09-25 12:11:47 UTC-06:00 — Conectar Cloudflare con Render**
+  - **Prompt:**
+    > [https://lingora-api.onrender.com](https://lingora-api.onrender.com)
+  - **Resumen:** Render /api/health responde 200 con PostgreSQL. Configurado BACKEND_URL y alineado nombre Worker lingora-ia-v3 con URL pública existente. Pendiente verificar despliegue automático.
+  - **Archivos modificados:** wrangler.jsonc y BITACORA.md.

@@ -548,8 +548,8 @@ Se registrarán las nuevas solicitudes de esta conversación con su resultado y 
   - **Resumen:** Pendiente.
   - **Archivos modificados:** Por determinar.
 
-- [ ] **2026-10-02 13:24:36 UTC-06:00 — Actualizar versión en GitHub**
+- [x] **2026-10-02 13:24:36 UTC-06:00 — Actualizar versión en GitHub**
   - **Prompt:**
     > Sube esta versión del codigo a github, actualizando la que ya esta arriba de LINGORA
-  - **Resumen:** Revisados cambios locales y sincronizado origin/main. Backend: 26 pruebas aprobadas. Frontend sin ejecutar por falta de Node/npm. Preparada actualización del repositorio Boundedman/LINGORA-IA-V2 en main; pendiente confirmar push. .env excluido.e.
+  - **Resumen:** Revisados cambios locales y sincronizado origin/main. Backend: 26 pruebas aprobadas. Frontend sin ejecutar por falta de Node/npm. Publicada actualización del repositorio Boundedman/LINGORA-IA-V2 en main, commit c2a4e2e; push confirmado. .env excluido.e.
   - **Archivos modificados:** BITACORA.md, back/ai.py, back/main.py, back/tests/test_app.py, front/src/components/Tutor.tsx y front/tests/ui.test.ts.

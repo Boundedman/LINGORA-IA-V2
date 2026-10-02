@@ -151,6 +151,9 @@ def login(body: Credentials, response: Response):
 @app.post('/api/auth/logout')
 def logout(request: Request, response: Response):
     with database() as conn:
+        session = conn.execute('SELECT user_id FROM sessions WHERE token=?', (auth.digest(request.cookies.get(auth.COOKIE, "")),)).fetchone()
+        if session:
+            clear_tutor_history(conn, session['user_id'])
         conn.execute("DELETE FROM sessions WHERE token=?", (auth.digest(request.cookies.get(auth.COOKIE, "")),))
     response.delete_cookie(auth.COOKIE)
     return {"ok": True}
@@ -231,6 +234,11 @@ def feedback(body: Feedback, user=Depends(auth.current_user)):
         put(conn, 'feedback', user['id'], str(uuid.uuid4()), body.model_dump())
     return {"ok": True}
 
+def clear_tutor_history(conn, uid):
+    conn.execute("DELETE FROM records WHERE user_id=? AND kind='messages'", (uid,))
+    # Invalidate provider responses already in flight when the conversation ends.
+    put(conn, 'tutor_generation', uid, uid, str(uuid.uuid4()))
+
 @app.post('/api/account')
 def account(body: Account, response: Response, user=Depends(auth.current_user)):
     uid = user['id']
@@ -238,7 +246,7 @@ def account(body: Account, response: Response, user=Depends(auth.current_user)):
         if body.action == 'export':
             return {kind: rows(conn, kind, uid) for kind in ['profiles','avatars','lesson_progress','reviews','diagnostics','user_errors','messages','exercise_attempts','feedback','ai_requests']}
         if body.action == 'clear-history':
-            conn.execute("DELETE FROM records WHERE user_id=? AND kind='messages'", (uid,))
+            clear_tutor_history(conn, uid)
         elif body.confirmation == 'ELIMINAR':
             conn.execute("DELETE FROM users WHERE id=?", (uid,))
             response.delete_cookie(auth.COOKIE)

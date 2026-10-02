@@ -150,3 +150,30 @@ test('diagnostic explains sign-in instead of inventing a user profile',()=>{
  fireEvent.click(screen.getByRole('button',{name:'Entrar para comenzar'}));
  assert.ok(screen.getByRole('dialog'));
 });
+
+test('tutor starts fresh, selects another topic and clears history on page exit',async()=>{
+ const {Tutor}=await import('../src/components/Tutor');
+ const calls:{path:string;body:any;keepalive?:boolean}[]=[];
+ globalThis.fetch=(async(url,init)=>{
+  calls.push({path:String(url),body:init?.body?JSON.parse(String(init.body)):null,keepalive:init?.keepalive});
+  return new Response(JSON.stringify({text:'Hello traveler!'}),{headers:{'Content-Type':'application/json'}});
+ }) as typeof fetch;
+ const learner={session:{user:{id:'ana',email:'ana@example.com'}},profile:{interest:'Old topic'},updateProfile:async()=>{}} as unknown as import('../src/lib/useLearner').Learner;
+ const view=render(React.createElement(Tutor,{learner,login:()=>{}}));
+ fireEvent.click(screen.getByRole('button',{name:'Viajar con confianza'}));
+ await waitFor(()=>assert.equal((screen.getByRole('button',{name:'Guardar interés'}) as HTMLButtonElement).disabled,false));
+ fireEvent.click(screen.getByRole('button',{name:'Guardar interés'}));
+ await screen.findByLabelText('Mensaje para el tutor');
+ fireEvent.change(screen.getByLabelText('Mensaje para el tutor'),{target:{value:'Hello'}});
+ fireEvent.click(screen.getByRole('button',{name:'Enviar mensaje'}));
+ await screen.findByText('Hello traveler!');
+ fireEvent(window,new dom.window.Event('pagehide'));
+ assert.equal(screen.queryByText('Hello traveler!'),null);
+ assert.ok(screen.getByLabelText('Tu interés principal'));
+ assert.ok(calls.some(c=>c.keepalive&&c.body.action==='clear-history'));
+ view.unmount();
+ render(React.createElement(Tutor,{learner,login:()=>{}}));
+ assert.ok(screen.getByRole('button',{name:'Tecnología y videojuegos'}));
+ assert.equal(calls.some(c=>c.path.endsWith('/messages')),false);
+ await waitFor(()=>assert.ok(calls.filter(c=>c.body?.action==='clear-history').length>=4));
+});

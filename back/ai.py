@@ -114,6 +114,7 @@ def generate(body, uid, lessons):
         put(conn, 'ai_requests', uid, reservation, audit)
         profile = get(conn, 'profiles', uid, uid)
         recent = rows(conn, 'messages', uid)[-6:]
+        tutor_generation = get(conn, 'tutor_generation', uid, uid)
         errors = rows(conn, 'user_errors', uid)[-3:]
         key = hashlib.sha256(json.dumps([uid,model,POLICY_VERSION,body.message,body.lessonId,profile['level']],ensure_ascii=False).encode()).hexdigest()
         cached = get(conn, 'ai_cache', uid, key)
@@ -159,7 +160,7 @@ def generate(body, uid, lessons):
             if not conn.execute('SELECT 1 FROM users WHERE id=?',(uid,)).fetchone():
                 raise HTTPException(401,'La cuenta ya no está disponible.')
             put(conn,'ai_requests',uid,reservation,audit)
-            if body.operation=='tutor':
+            if body.operation=='tutor' and get(conn, 'tutor_generation', uid, uid) == tutor_generation:
                 for role,content in [('user',body.message),('assistant',text)]:
                     put(conn,'messages',uid,str(uuid.uuid4()),dict(role=role,content=content))
             if body.operation=='explain' and in_scope:

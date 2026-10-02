@@ -337,3 +337,28 @@ def test_previous_policy_cache_is_not_returned(client, monkeypatch):
         request=httpx.Request('POST','https://example.com')))
     response=client.post('/api/ai',json={'operation':'explain','message':message})
     assert response.json()=={'text':ai.OFF_TOPIC_REPLY,'cached':False}
+
+def test_logout_clears_tutor_history_only(client):
+    uid = signup(client)
+    with database() as conn:
+        put(conn, 'messages', uid, 'old', {'role':'user','content':'Hello'})
+    before = client.get('/api/learner').json()
+    assert client.post('/api/auth/logout', json={}).status_code == 200
+    assert client.post('/api/auth/login', json={'email':'first@example.com','password':'safe-password-123'}).status_code == 200
+    assert client.get('/api/messages').json() == []
+    assert client.get('/api/learner').json() == before
+
+
+def test_reset_discards_pending_tutor_response(client, monkeypatch):
+    import httpx
+    import back.ai as ai
+    signup(client)
+    monkeypatch.setenv('AI_ENABLED', 'true')
+    monkeypatch.setenv('AI_API_KEY', 'test-key')
+    monkeypatch.setenv('AI_MODEL', 'test-model')
+    def provider(*args, **kwargs):
+        assert client.post('/api/account', json={'action':'clear-history'}).status_code == 200
+        return httpx.Response(200, json={'candidates':[{'content':{'parts':[{'text':'{"in_scope":true,"text":"Hello!"}'}]}}]}, request=httpx.Request('POST','https://example.com'))
+    monkeypatch.setattr(ai.httpx, 'post', provider)
+    assert client.post('/api/ai', json={'operation':'tutor','message':'Hello'}).status_code == 200
+    assert client.get('/api/messages').json() == []

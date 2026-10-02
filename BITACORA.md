@@ -527,8 +527,29 @@ Se registrarán las nuevas solicitudes de esta conversación con su resultado y 
   - **Resumen:** Confirmada creación del servicio según captura, sin asumir que ya está operativo. Indicado abrir el enlace lingora-api para obtener estado y URL pública; conexión Cloudflare pendiente de ese dato.
   - **Archivos modificados:** BITACORA.md. Sin lectura de secretos ni cambios de servicios.
 
-- [ ] **2026-09-25 12:11:47 UTC-06:00 — Conectar Cloudflare con Render**
+- [x] **2026-09-25 12:11:47 UTC-06:00 — Conectar Cloudflare con Render**
   - **Prompt:**
     > [https://lingora-api.onrender.com](https://lingora-api.onrender.com)
-  - **Resumen:** Render /api/health responde 200 con PostgreSQL. Configurado BACKEND_URL y alineado nombre Worker lingora-ia-v3 con URL pública existente. Pendiente verificar despliegue automático.
+  - **Resumen:** Render /api/health responde 200 con PostgreSQL. Configurado BACKEND_URL y alineado nombre Worker lingora-ia-v3 con URL pública existente. Verificado el 2026-09-26: Workers Builds lingora-ia-v3 completado con éxito. Cloudflare y Render responden /api/health HTTP 200 con PostgreSQL y /api/auth/session HTTP 200. POST /api/profile sin sesión, con origen Cloudflare, devuelve 401 esperado.
   - **Archivos modificados:** wrangler.jsonc y BITACORA.md.
+
+- [x] **2026-09-26 17:00:53 UTC-06:00 — Retomar verificación del despliegue**
+  - **Prompt:**
+    > Sigue trabajado
+  - **Resumen:** Completada verificación pendiente tras límite de revisión automática. GitHub confirma despliegue correcto; rutas de salud y sesión accesibles desde Cloudflare y Render. Rechazo 401 correcto a modificación de perfil sin autenticación. No se crearon cuentas ni se hizo una llamada real a Gemini; esos flujos autenticados no se probaron en producción.
+  - **Archivos modificados:** BITACORA.md. Configuración publicada previamente en commit d373e9b; sin nuevos cambios de código.
+
+- [] Realizar una verificación de flujo de datos, que no se abran 
+     o mandé a llamar cosas que el usuario no mando a llamar, nececito que la aplicacion se vea fluida y cargue rapido, incluso si hay alguna manera de optimizar la PI CALL mejor 
+
+- [ ] **2026-09-29 17:28:47 UTC-06:00 — Reiniciar historial del tutor al salir**
+  - **Prompt:**
+    > quiero que cuando el usuario de la aplicacion salga de la aplicación se limpie el historal del tutor de IA y pueda escoger otra tematica
+  - **Resumen:** Pendiente.
+  - **Archivos modificados:** Por determinar.
+
+- [ ] **2026-10-02 13:24:36 UTC-06:00 — Actualizar versión en GitHub**
+  - **Prompt:**
+    > Sube esta versión del codigo a github, actualizando la que ya esta arriba de LINGORA
+  - **Resumen:** Revisados cambios locales y sincronizado origin/main. Backend: 26 pruebas aprobadas. Frontend sin ejecutar por falta de Node/npm. Preparada actualización del repositorio Boundedman/LINGORA-IA-V2 en main; pendiente confirmar push. .env excluido.e.
+  - **Archivos modificados:** BITACORA.md, back/ai.py, back/main.py, back/tests/test_app.py, front/src/components/Tutor.tsx y front/tests/ui.test.ts.
